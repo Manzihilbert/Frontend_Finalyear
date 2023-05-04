@@ -1,0 +1,65 @@
+.navbar-custom {
+    height: 130px;
+    background-color: rgb(68,139,4);
+};
+
+.glyphicon-log-out{
+    font-size:28px;
+    padding: 8px 3px 0 8px;
+  }
+
+
+  .container-fluid{
+    padding-left: 0px;
+    padding-right: 25px;
+  }
+
+  .bottom{
+    background-color: rgb(68,139,4);
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0px;
+  };
+
+  span#copyright {
+    font-size: 20px;
+    color: beige;
+  }
+
+  .btn-xl {
+    
+    font-size: 3vw;
+    color: beige;
+    width: 20%;  
+    height: 100px;
+    position: absolute;  
+    top: 40%;
+    right: 20%;
+    background-color: rgb(68,139,4);
+}
+ .btn-ml {
+    
+    font-size: 3vw;
+    color: beige;
+    width: 20%;  
+    height: 100px;
+    position: absolute;  
+    top: 40%;
+    left: 20%;
+    background-color: rgb(68,139,4);
+}
+
+.copyright{
+  font-size: 20px;
+    color: beige;
+    text-align: center;
+};
+
+.container-custom{
+  margin-right: 10px;
+}
+
+.format{
+  border: 1px;
+}
