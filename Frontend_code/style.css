@@ -63,3 +63,19 @@
 .format{
   border: 1px;
 }
+
+
+.collapse.navbar-collapse{
+z-index: 10; /* To make the menu apear on top of everything*/
+}
+.navbar-nav.ms-auto{
+  width: auto;
+  background-color: rgb(68,139,4); /* Background of the */
+  align-items: center; /* Alignment of the menu items*/
+
+}
+
+.btn.btn-light.ms-3{
+  margin-top: 10px; /*to add spaces in between the list*/
+  margin-bottom: 10px; /*to add spaces in between the list*/
+}
