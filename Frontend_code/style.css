@@ -221,14 +221,10 @@ span#copyright {
 }
 
 .browsing {
-  width: 30%;
+  width: 40%;
   padding: 10px;
   height: auto;
   margin: 10px;
-  /* position: absolute;
-  
-  top: 40%;
-  left: 35%; */
   background-color: rgb(68, 139, 4);
 }
 
@@ -313,5 +309,21 @@ span#copyright {
   width: 100%;
   height: auto;
   padding: 10px;
+  background-color: rgb(68, 139, 4);
+}
+
+#userphoto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  
+}
+
+.uploadid {
+  width: auto;
+  padding: 10px;
+  height: auto;
+  margin: 10px;
   background-color: rgb(68, 139, 4);
 }
