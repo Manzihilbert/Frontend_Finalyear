@@ -184,6 +184,7 @@ span#copyright {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .login_button button {
@@ -192,6 +193,7 @@ span#copyright {
 
 .input_group {
   margin: 5px 0;
+  
 }
 
 .login_label {
@@ -202,8 +204,10 @@ span#copyright {
   box-shadow: 2px 2px 5px 2px black, 2px 2px 5px yellow;
 }
 
+
+
 .login_colour {
-  width: 50%;
+  width: 60%;
   padding: 10px;
   height: auto;
   position: absolute;
