@@ -184,7 +184,6 @@ span#copyright {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .login_button button {
@@ -193,7 +192,6 @@ span#copyright {
 
 .input_group {
   margin: 5px 0;
-  
 }
 
 .login_label {
@@ -203,8 +201,6 @@ span#copyright {
   color: white;
   box-shadow: 2px 2px 5px 2px black, 2px 2px 5px yellow;
 }
-
-
 
 .login_colour {
   width: 60%;
@@ -271,13 +267,22 @@ span#copyright {
   align-items: center;
 }
 
-.content_con{
+.main_contable {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.content_con {
   background-color: rgb(68, 139, 4);
   padding: 15px;
 }
 
 /* form section */
-.form_title{
+.form_title {
   margin-bottom: 15px;
   width: 100%;
   height: auto;
@@ -286,7 +291,7 @@ span#copyright {
   box-shadow: 2px 2px 5px 2px black, 2px 2px 5px yellow;
 }
 
-.input_group_form{
+.input_group_form {
   width: 100%;
   height: auto;
   display: flex;
@@ -294,18 +299,18 @@ span#copyright {
   justify-content: space-between;
 }
 
-.input_group_form input{
+.input_group_form input {
   border-radius: 10px;
   border: none;
   padding: 5px;
 }
 
-.input_group_form label{
+.input_group_form label {
   color: white;
   margin-right: 10px;
 }
 
-#inputGroupFile01{
+#inputGroupFile01 {
   background-color: aliceblue;
 }
 
@@ -316,12 +321,11 @@ span#copyright {
   background-color: rgb(68, 139, 4);
 }
 
-#userphoto{
+#userphoto {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 0px;
-  
 }
 
 .uploadid {
@@ -330,4 +334,85 @@ span#copyright {
   height: auto;
   margin: 10px;
   background-color: rgb(68, 139, 4);
+}
+
+/* sorting page */
+.sort {
+  background-color: rgb(68, 139, 4);
+  padding: 15px;
+  color: beige;
+}
+
+.content_sort {
+  /* background-color: rgb(68, 139, 4); */
+  color: beige;
+  font-size: 2vw;
+  padding: 15px;
+
+  top: 20px;
+}
+
+.viewid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.align_centre {
+  background-color: rgb(68, 139, 4);
+  padding: 10px;
+  text-align: center;
+}
+
+.align_right {
+  float: left;
+}
+
+#float_right {
+  float: right;
+}
+
+/* card body */
+.card-body p {
+  padding: 3px;
+  background-color: rgb(68, 139, 4);
+  border-radius: 10px;
+}
+
+.adjust {
+  position: relative;
+  top: 30px;
+  border: 1px solid;
+}
+
+.header_style {
+  background-color: rgb(68, 139, 4);
+}
+
+/* sign up */
+.sign_up {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* activity */
+.activity {
+  background-color: rgb(68, 139, 4);
+}
+
+/* table style */
+.table_style {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.table_style div {
+  padding: 10px;
+  background-color: rgb(68, 139, 4);
+  max-width: 300px;
+  color: beige;
+  font-size: 1.5rem;
 }
