@@ -400,6 +400,24 @@ span#copyright {
 /* activity */
 .activity {
   background-color: rgb(68, 139, 4);
+  
+}
+
+.activity:hover, .activity:focus{
+  background-color: rgb(45, 85, 9);
+}
+
+
+
+.btn-danger{
+  color: black;
+}
+
+.btn-danger:focus{
+  color: black;
+}
+.btn-danger:hover{
+  color: black;
 }
 
 /* table style */
