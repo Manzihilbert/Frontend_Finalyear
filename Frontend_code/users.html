@@ -78,9 +78,32 @@
                     <td><button class="btn btn-light activity" type="button">View
                         <img src="bootstrap-icons-1.10.5/box-arrow-in-down-right.svg" width="20" height="25">
                     </button></td>
-                    <td><button class="btn btn-danger" type="button">Delete User
-                            <img src="bootstrap-icons-1.10.5/trash.svg" width="20" height="25">
-                        </button>                 
+                    <td>
+                               
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Delete User
+  <img src="bootstrap-icons-1.10.5/trash.svg" width="20" height="25">
+                        
+
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: rgb(68, 139, 4);">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this user?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+     
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Back</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>              
                     </td>
 
                 </tr>
@@ -92,9 +115,30 @@
                     <td><button class="btn btn-light activity" type="button">View
                         <img src="bootstrap-icons-1.10.5/box-arrow-in-down-right.svg" width="20" height="25">
                     </button></td>
-                    <td><button class="btn btn-danger" type="button">Delete User
-                            <img src="bootstrap-icons-1.10.5/trash.svg" width="20" height="25">
-                        </button>                 
+                    <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Delete User
+                        <img src="bootstrap-icons-1.10.5/trash.svg" width="20" height="25">
+                                              
+                      
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content" style="background-color: rgb(68, 139, 4);">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to delete this user?</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                           
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-light" data-bs-dismiss="modal">Back</button>
+                              <button type="button" class="btn btn-danger">Delete</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>   
+                                         
                     </td>
                 </tr>
                 <tr>
@@ -147,8 +191,9 @@
         </div>
     </footer>
     </div>
-    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    
 </body>
 
 </html>
