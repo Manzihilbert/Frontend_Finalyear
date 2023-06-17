@@ -355,10 +355,11 @@ span#copyright {
 
 .viewid {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   width: 100%;
 }
+
+
 
 .align_centre {
   background-color: rgb(68, 139, 4);
@@ -446,4 +447,10 @@ span#copyright {
 
 #live_modal{
   background-color: rgb(68, 139, 4);
+}
+
+.arrange{
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
