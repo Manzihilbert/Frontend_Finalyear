@@ -454,3 +454,10 @@ span#copyright {
   align-content: center;
   justify-content: center;
 }
+
+.idphotos{
+  display: flex; 
+  justify-content: 
+  center; padding: 10px;
+  
+}
