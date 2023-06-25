@@ -27,9 +27,9 @@ span#copyright {
 }
 
 .btn-xl {
-  font-size: 30px;
+  font-size: 27px;
   color: beige;
-  width: 25%;
+  width: 27%;
   height: 100px;
   position: absolute;
   top: 40%;
@@ -38,9 +38,9 @@ span#copyright {
 }
 
 .btn-ml {
-  font-size: 30px;
+  font-size: 27px;
   color: beige;
-  width: 25%;
+  width: 27%;
   height: 100px;
   position: absolute;
   top: 40%;
@@ -232,7 +232,7 @@ span#copyright {
   margin: 5px 10px;
 }
 
-.button_design {
+.button_design,.button_design:hover, .button_design:focus  {
   background-color: rgb(68, 139, 4);
   color: beige;
 }
@@ -344,6 +344,7 @@ span#copyright {
   padding: 15px;
   color: beige;
 }
+
 
 .content_sort {
    color: beige;
