@@ -345,6 +345,15 @@ span#copyright {
   color: beige;
 }
 
+.dropdown-menu a,  .dropdown-menu a:focus{
+  background-color: rgb(68, 139, 4);
+  color: beige;
+  margin: 5px;
+}
+
+.dropdown-menu a:hover{
+  background-color: rgb(54, 102, 10);
+}
 
 .content_sort {
    color: beige;
