@@ -2,95 +2,90 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Image</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Image</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom container-fluid">
 
-    <header>
-        <header class="header_con">
-            <nav class="top_nav_bar navbar navbar-expand-lg navbar-light navbar-custom container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="photos/logo2_adobe_express.svg" width="200" height="100" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <button class="btn btn-light ms-3 visible-md dropdown-menu-right" type="button">How it works</button>
-                </li>
-                <li class="nav-item">
-                  <button class="btn btn-light ms-3" type="button">Get a new ID</button>
-                </li>
-                <li class="nav-item">
-                  <button class="btn btn-light ms-3" type="button">FAQs</button>
-                </li>
-                <li class="nav-item">
-                  <button class="btn btn-light ms-3" type="button">
-                    <img src="bootstrap-icons-1.10.5/bell-fill.svg" width="20" height="25" alt="logo">
-                  </button>
-                </li>
-                <li class="nav-item">
-                  <button class="btn btn-light ms-3" type="button">Account
-                    <img src="bootstrap-icons-1.10.5/person-circle.svg" width="20" height="25" alt="logo">
-                  </button>
-                </li>
-                <li class="nav-item">
-                  <button class="btn btn-light ms-3" type="button">Logout
-                    <img src="bootstrap-icons-1.10.5/box-arrow-right.svg" width="20" height="25" alt="logo">
-                  </button>
-                </li>
-              </ul>
-    
-            </div>
-            </nav>
-        </header>
-        <main class="container main_con">
-          <div class=" container text-center">
-            <div class="upload">
-                <div class="uploadid">
-                    <img src="photos\johndoe.jpg"  width="350" height="250" alt="">
-                </div>
-                <div class="browsing text-center">
-                    <button class="btn btn-light button_s" type="button">Add Image</button>
-                    
-                </div>
-    
-                <button class="btn btn-light button_s button_design" type="button">Choose a location </button>
-                <button class="btn btn-light button_s button_design" type="button">Upload</button>
-            </div>
-        </div>
-    
-
-        </main>
-    
-
-
-
-    <footer class="footer">
-      <div class="text-center">
+      <a class="navbar-brand" href="homestudent.html">
         <img src="photos/logo2_adobe_express.svg" width="200" height="100" alt="logo">
-        <br>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a href="homestudent.html" class="btn btn-light ms-3 selected">Dashboard</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="btn btn-light ms-3 selected">How it works</a>
+          </li>
+          <li class="nav-item ">
+            <a href="faq.html" class="btn btn-light ms-3 selected">FAQs</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="btn btn-light ms-3 selected">Locations</a>
+          </li>
+          <li class="nav-item ">
+            <a href="accountdetails.html" class="btn btn-light ms-3 selected">Account
+              <img src="bootstrap-icons-1.10.5/person-circle.svg" width="20" height="25" alt="logo">
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="login.html" class="btn btn-light ms-3 selected">Logout
+              <img src="bootstrap-icons-1.10.5/box-arrow-right.svg" width="20" height="25" alt="logo">
+            </a>
+          </li>
+        </ul>
+
       </div>
-      <div class="copyright">
-        <span>
-          Copyright 2023 MakRecover, Inc
-        </span>
+    </nav>
+  </header>
+  <main class="container main_con">
+    <div class=" container text-center">
+      <div class="upload">
+        <div class="uploadid">
+          <img src="photos\johndoe.jpg" width="350" height="250" alt="">
+        </div>
+        <div class="browsing text-center">
+          <button class="btn btn-light button_s" type="button">Add Image</button>
+
+        </div>
+
+        <button class="btn btn-light button_s button_design" type="button">Choose a location </button>
+        <button class="btn btn-light button_s button_design" type="button">Upload</button>
       </div>
-    </footer>
     </div>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/script.js"></script>
+  </main>
+
+
+
+
+  <footer class="footer">
+    <div class="text-center">
+      <img src="photos/logo2_adobe_express.svg" width="200" height="100" alt="logo">
+      <br>
+    </div>
+    <div class="copyright">
+      <span>
+        Copyright 2023 MakRecover, Inc
+      </span>
+    </div>
+  </footer>
+  </div>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
