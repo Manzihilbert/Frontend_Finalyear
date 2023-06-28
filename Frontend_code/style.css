@@ -57,8 +57,11 @@ span#copyright {
 
 .selected:hover, .selected:focus {
   background-color: rgb(172, 172, 157);
-  outline: none;
-  box-shadow: none;
+  border-color: none;
+}
+
+.btn-light, .btn-light:hover, .btn-light:focus {
+  border-color: rgb(172, 172, 157);
 }
 
 .out_line, .out_line:focus, .out_line:hover {
