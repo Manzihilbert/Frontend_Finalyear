@@ -13,6 +13,11 @@
   padding-right: 25px;
 }
 
+.container-fluid.d-flex {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .bottom {
   background-color: rgb(68, 139, 4);
   width: 100%;
@@ -239,7 +244,7 @@ span#copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 30%;
+  top: 20%;
   left: 20%;
   background-color: rgb(68, 139, 4);
 }
@@ -521,5 +526,82 @@ span#copyright {
 
 .width{
   width: 18rem;
+}
+
+.place{
+  font-size: 20px;
+  height: fit-content;
+  border: 0px solid black;
+}
+
+.place1{
+  height: fit-content;
+  font-size: 20px;
+  border: 0px solid black;
+  
+}
+.place2{
+  font-size: 20px;
+  border: 0px solid black;
+  background-color: rgb(68, 139, 4);
+}
+
+.stacking{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  .stacking {
+    display: block;
+    
+  }
+
+  .place1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+}
+
+@media (max-width: 767px){
+.small_screen{
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+
+
+#Upload_text{
+  font-size: 18px;
+  color: beige;
+  text-align: center;
+}
+
+h5{
+  font-size: 22px;
+  color: beige;
+  text-align: center;
+}
+
+.BackGround{
+  background-color: rgb(68, 139, 4);
+}
+
+.BackGround_upload{
+  background-color: rgb(50, 90, 17); 
+  
+}
+
+.Background_info{
+  color: rgb(68, 139, 4);
+}
+
+.font, .font:hover, .font:focus{
+  font-weight: bold;
+  color: rgb(68, 139, 4);
 }
 
