@@ -1,6 +1,7 @@
 .navbar-custom {
   height: 130px;
-  background-color: rgb(68, 139, 4);
+  background-color: beige;
+  box-shadow: 2px 5px 10px rgb(214, 214, 171);
 }
 
 .glyphicon-log-out {
@@ -36,10 +37,10 @@ span#copyright {
   color: beige;
   width: 27%;
   height: 100px;
-  position: absolute;
+  position: relative;
   top: 40%;
-  right: 20%;
-  background-color: rgb(68, 139, 4);
+  
+  
 }
 
 .btn-ml {
@@ -47,10 +48,9 @@ span#copyright {
   color: beige;
   width: 27%;
   height: 100px;
-  position: absolute;
+  position: relative;
   top: 40%;
-  left: 20%;
-  background-color: rgb(68, 139, 4);
+  left: 5%
 }
 
 .btn-ml:hover, .btn-ml:focus, .btn-xl:focus, .btn-xl:hover, .btn-xla:focus, .btn-xla:hover {
@@ -64,6 +64,20 @@ span#copyright {
   background-color: rgb(172, 172, 157);
   border-color: none;
 }
+
+.edit_selected:hover, .edit_selected:focus {
+    background-color: rgb(68, 139, 4);
+    border-color: none;
+}
+
+.edit_selected.onpage{
+  background-color: rgb(68, 139, 4);
+}
+
+.btn-edit_selected{
+  border-color: rgb(68, 139, 4);
+}
+
 
 .btn-light, .btn-light:hover, .btn-light:focus {
   border-color: rgb(172, 172, 157);
@@ -101,11 +115,65 @@ span#copyright {
 }
 .navbar-nav.ms-auto {
   width: auto;
-  background-color: rgb(68, 139, 4); /* Background of the */
+  background-color: beige; /* Background of the */
   align-items: center; /* Alignment of the menu items*/
 }
 
-.btn.btn-light.ms-3 {
+.top_nav.ms-auto {
+  display: flex;
+  float: left;
+  list-style-type: none;
+  
+}
+
+
+.front_content1{
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+#mid_green1{
+  padding: 30px;
+  background-color: rgb(68, 139, 4);
+  width: 100%;
+  height: 90%;
+  border-radius: 100px;
+  
+}
+
+.front_content2{
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+
+
+
+
+.front_content3{
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+
+
+
+#mid_green{
+  padding: 30px;
+  background-color: rgb(68, 139, 4);
+  width: 90%;
+  height: 80%;
+  border-radius: 100px;
+  
+}
+
+.btn.btn-edit_selected.ms-3 {
   margin-top: 10px; /*to add spaces in between the list*/
   margin-bottom: 10px; /*to add spaces in between the list*/
 }
@@ -192,25 +260,38 @@ span#copyright {
   height: 100px;
   margin: 10px;
   background-color: rgb(68, 139, 4);
+  position: relative;
+  top: 80px;
 }
 
-.transform {
-  width: 100%;
-  height: 100%;
+.btn-xla2 {
+  font-size: 30px;
+  color: beige;
+  max-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 9px;
+  
+  background-color: rgb(68, 139, 4);
+  position: relative;
+  top: 150px;
 }
 
-.adminHome {
-  margin-top: 100px;
-  width: 100%;
+.transform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
+.adminHome { 
+  
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: auto;
   align-items: center;
-  height: auto;
+  
+  
 }
 
 .login_button {
@@ -232,9 +313,21 @@ span#copyright {
   margin-bottom: 10px;
   width: 100%;
   height: auto;
-  color: white;
+  color:black;
+  background-color: rgb(68, 139, 4);
   box-shadow: 2px 2px 5px 2px black, 2px 2px 5px yellow;
 }
+
+.btn-btn_login  {
+  background-color: rgb(68, 139, 4);
+}
+
+.btn-btn_login:hover, .btn-btn_login:focus {
+  background-color: rgb(54, 102, 10);
+}
+
+
+
 
 .login_colour {
   width: 60%;
@@ -248,6 +341,9 @@ span#copyright {
   left: 20%;
   background-color: rgb(68, 139, 4);
 }
+
+
+
 
 #login_centre {
   display: flex;
@@ -293,13 +389,29 @@ span#copyright {
   background-color: rgb(68, 139, 4);
 }
 
+.front_header_con {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+
 .main_con {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: beige;
+
+}
+
+.content_background{
+  background-color: beige;
 }
 
 .main_contable {
@@ -315,6 +427,7 @@ span#copyright {
 .content_con {
   background-color: rgb(68, 139, 4);
   padding: 15px;
+  border-radius: 10px;
 }
 
 /* form section */
@@ -336,14 +449,14 @@ span#copyright {
 }
 
 .input_group_form input {
-  border-radius: 10px;
+  border-radius: 0px;
   border: none;
   padding: 5px;
 }
 
 .input_group_form label {
   color: white;
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 #inputGroupFile01 {
@@ -370,6 +483,7 @@ span#copyright {
   height: auto;
   margin: 15px;
   background-color: rgb(68, 139, 4);
+  border-radius: 10px;
 }
 
 /* sorting page */
@@ -572,7 +686,40 @@ span#copyright {
 }
 }
 
+.stressedPhoto{
+  background-image: url(photos/stress.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 100vh;
+  filter: blur(9px);
+  background-color: beige;
+  
+}
 
+.login_colour2 {
+  width: 60%;
+  padding: 10px;
+  height: auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  left: 20%;
+  background-color:beige;
+  box-shadow: 2px 5px 5px 2px beige; 
+  border-radius: 20px;
+}
+
+.howto, .howto:hover, .howto:focus{
+  color: black;
+}
+
+.login_sign{
+  height: 39px;
+  margin-top: 4.5px;
+}
 
 
 #Upload_text{
@@ -609,6 +756,50 @@ h5{
   padding: 55px 30px;
 }
 
+.usage_page_nologin{
+  padding: 10px 30px;
+}
+
 .using_page{
   margin: 46px;
+}
+
+.forgot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.forgot_color{
+  background-color: rgb(245, 245, 241);
+  box-shadow: 6px 6px 10px 4px rgb(207, 207, 201); 
+  max-width: 350px; 
+}
+
+.arrange_photos{
+  min-height: 100vh;
+}
+
+@media (max-width: 810px) {
+.hideOnSmallerScreens {
+  display: none;
+}
+
+}
+
+@media (max-width: 768px) and (min-width: 1107px) {
+  .hideOnVerySmallScreens {
+    display: none;
+  }
+}
+
+@media (min-width: 809px){
+ .showOnSmallScreens {
+   display: none;
+ }
+}
+
+.eye_view{
+  height: 60vh;
 }

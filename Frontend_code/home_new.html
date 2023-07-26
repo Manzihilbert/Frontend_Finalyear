@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom container-fluid">
 
       <a class="navbar-brand" href="homestudent.html">
-        <img src="photos/logo2_adobe_express.svg" width="200" height="100" alt="logo">
+        <img src="photos/Pasted image.png" width="200" height="100" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,44 +27,39 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item ">
-            <a href="homestudent.html" class="btn btn-light ms-3 selected onpage">Home</a>
+            <a href="homestudent.html" class="btn btn-edit_selected ms-3 edit_selected onpage">Home</a>
           </li>
           <li class="nav-item">
-            <a href="HowItWorks.html" class="btn btn-light ms-3 selected">How it works</a>
+            <a href="HowItWorks.html" class="btn btn-edit_selected ms-3 edit_selected">How it works</a>
           </li>
           <li class="nav-item">
-            <a href="faq.html" class="btn btn-light ms-3 selected">FAQs</a>
+            <a href="faq.html" class="btn  ms-3 btn-edit_selected edit_selected">FAQs</a>
           </li>
           <li class="nav-item">
-            <a href="locations.html" class="btn btn-light ms-3 selected">Locations</a>
+            <a href="locations.html" class="btn btn-edit_selected ms-3 edit_selected">Locations</a>
           </li>
           <li class="nav-item">
-            <a href="accountdetails.html" class="btn btn-light ms-3 selected">Account
+            <a href="accountdetails.html" class="btn btn-edit_selected ms-3 edit_selected">Account
               <img src="bootstrap-icons-1.10.5/person-circle.svg" width="20" height="25" alt="logo">
             </a>
           </li>
           <li class="nav-item">
-            <a href="login.html" class="btn btn-light ms-3 selected">Logout
+            <a href="login.html" class="btn btn-edit_selected ms-3 edit_selected">Logout
               <img src="bootstrap-icons-1.10.5/box-arrow-right.svg" width="20" height="25" alt="logo">
             </a>
           </li>
         </ul>
-
       </div>
     </nav>
   </header>
 
   <main>
-    <div class="container-fluid content_background arrange" style="height: 60vh;">
+    <div class="container-fluid content_background arrange" style="height: 100vh;">
 
-      <a href="" class=" btn btn-btn_login d-flex justify-content-center pt-4" style="  width: 27%; height: 100px; position: relative; top: 40%; right: 5%;
+      <a href="{{ route('student.find.id') }}" class=" btn btn-btn_login d-flex justify-content-center pt-4" style="  width: 27%; height: 100px; position: relative; top: 40%; right: 5%;
        font-size: 27px; color: beige; width: 27%;"> Search</a>
-      <a href="" class=" btn btn-btn_login d-flex justify-content-center pt-4 btn-ml"
+      <a href="{{ route('lost_ids.view') }}" class=" btn btn-btn_login d-flex justify-content-center pt-4 btn-ml"
       > Upload</a>
-
-
-      <!-- <a href="#" class="btn btn-ml mr-5 d-flex justify-content-center pt-4">Search</a>
-      <a href="Upload_image.html" class="btn btn-xl ml-5 d-flex justify-content-center pt-4">Upload</a> -->
     </div>
   </main>
   

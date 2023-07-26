@@ -16,7 +16,7 @@
   <header class="header_con">
     <nav class="top_nav_bar navbar navbar-expand-lg navbar-light navbar-custom container-fluid">
       <a class="navbar-brand" href="adminhome.html">
-        <img src="photos/logo2_adobe_express.svg" width="200" height="100" alt="logo">
+        <img src="photos/Pasted image.png" width="200" height="100" alt="logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +26,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="adminhome.html" class="btn btn-light ms-3 selected onpage" type="button">Dashboard</a>
-          </li>
-
-
-          <li class="nav-item">
-            <a href="faqadmin.html" class="btn btn-light ms-3 selected" type="button">FAQs</a>
+            <a href="/dashboard" class="btn btn-light ms-3 edit_selected onpage" type="button">Dashboard</a>
           </li>
 
           <li class="nav-item">
-            <a href="login.html" class="btn btn-light ms-3 selected" type="button">Logout
+            <a href="{{ route('logout') }}" class="btn btn-edit_selected ms-3 edit_selected " type="button">Logout
               <img src="bootstrap-icons-1.10.5/box-arrow-right.svg" width="20" height="25" alt="logo">
             </a>
           </li>
@@ -44,31 +39,35 @@
       </div>
     </nav>
   </header>
-  <div class="container text-center tranform">
-    <div class="adminHome">
-      <a href="users.html" class="btn btn-xla">Check student Accounts</a>
-        <a href="viewphotos.html" class="btn btn-xla">Check Uploaded IDs</a>
+  <div class="container-fluid" style="background-color: beige; height: 100vh;">
+
+    <div class="d-flex justify-content-center adminHome">
+      <div class="container-fluid" style="background-color: beige; height: 100vh;">
+
+        <div class="d-flex justify-content-center adminHome">
+          <a href="{{ route('activity.view.all') }}" class="btn btn-xla2 ">Check student Accounts</a>
+          <a href="{{ route('lost.id.view.all') }}" class="btn btn-xla2 ">Check uploaded ID cards</a>
+        </div>
+      </div>
     </div>
   </div>
 
-
-  <footer>
-    <div class="bottom">
-      <div class="text-center">
-        <img src="photos/logo2_adobe_express.svg" width="200" height="100" alt="logo">
-        <br>
-      </div>
-      <div class="copyright">
-        <span>
-          Copyright 2023 MakRecover, Inc
-        </span>
-      </div>
-
+  
+   <footer class="footer">
+    <div class="text-center">
+        <img
+            src="photos/logo2_adobe_express.svg"
+            width="200"
+            height="100"
+            alt="logo"
+        />
+        <br />
     </div>
-  </footer>
-  </div>
-  <link rel="stylesheet" href="js/bootstrap.min.js">
+    <div class="copyright">
+        <span> Copyright 2023 MakRecover, Inc </span>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.js"></script>
 <script src="js/script.js"></script>
 </body>
-
 </html>
